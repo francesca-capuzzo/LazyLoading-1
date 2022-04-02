@@ -12,10 +12,8 @@ export class QuaComponent implements OnInit {
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.route.data
-    .subscribe((data) => {
+    this.route.data.subscribe((data) => {
       console.log(data);
-      // ...
     });
   }
 

@@ -9,6 +9,7 @@ const routes: Routes = [{
   component: QuaComponent, 
   resolve: {
     RouteData: RouteDataService
+    //service speciale chiamato RESOLVE che implementa il service ROUTE-DATA che evita di rallentare il sito caricando solo le impostazioni necessarie alla pagina
   }
 }];
 
